@@ -1,4 +1,4 @@
-package com.studentapp.junit.studentsinfo;
+package com.studentapp.junit.usersIdInfo;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -13,11 +13,10 @@ import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Manual;
 import net.thucydides.core.annotations.Pending;
-import net.thucydides.core.annotations.Title;
 import net.thucydides.core.requirements.SerenityTestCaseFinder;
 
 @RunWith(SerenityRunner.class)
-public class Firstserenitytest {
+public class SerenityIdinfo {
 
 	@BeforeClass
 	public static void init() {
@@ -77,17 +76,4 @@ public class Firstserenitytest {
 	public void thisisaManualTest() {
 	 
 	}
-	
-	@Title("This test will get all the information of the students from the studentapp")
-	@Test
-	public void Test01() {
-		SerenityRest.given()
-		.when()
-		.get("/list")
-		.then()
-		.log()
-		.all()
-		.statusCode(200);
-	}
-	
 }

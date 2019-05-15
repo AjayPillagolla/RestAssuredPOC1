@@ -1,4 +1,4 @@
-package com.studentapp.junit.studentsinfo;
+package com.usersapp.junit.usersinfo;
 
 import java.util.ArrayList;
 
@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 import com.studentapp.model.StudentClass;
 import com.studentapp.model.UsersClass;
-import com.studentapp.testbase.TestBase;
+import com.usersapp.testbase.TestBase;
 
 import io.restassured.http.ContentType;
 import net.serenitybdd.junit.runners.SerenityRunner;
@@ -15,7 +15,7 @@ import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Title;
 
 @RunWith(SerenityRunner.class)
-public class PostTest extends TestBase{
+public class UsersCRUDTest extends TestBase{
 
 	static String name="SMOKEUSER";
 	static String job="SMOKEUSER";
