@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>StudentApp</groupId>
-	<artifactId>StudentApp</artifactId>
+	<groupId>UsersApp</groupId>
+	<artifactId>UsersApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>StudentApp Serenity BDD</name>
+	<name>UsersApp Serenity BDD</name>
 
 	
 	<properties>
@@ -104,6 +104,11 @@
               <artifactId>activation</artifactId>
               <version>1.1.1</version>
          </dependency>
+         <dependency>
+              <groupId>net.serenity-bdd</groupId>
+              <artifactId>serenity-cucumber</artifactId>
+              <version>1.9.37</version>
+         </dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -121,8 +126,8 @@
 				<version>2.18</version>
 				<configuration>
 					<includes>
-						<include>**/studentapp/**/*.java</include>
-						<include>**/studentapp/*.java</include>
+						<include>**/usersapp/**/*.java</include>
+						<include>**/usersapp/*.java</include>
 					</includes>
 					<forkCount>4</forkCount>
 					<reuseForks>true</reuseForks>

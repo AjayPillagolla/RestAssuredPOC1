@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import com.studentapp.model.StudentClass;
 import com.studentapp.model.UsersClass;
 import com.usersapp.testbase.TestBase;
 
@@ -21,9 +20,32 @@ public class UsersCRUDTest extends TestBase{
 	static String job="SMOKEUSER";
 	
 	
-	@Title("This test will create a new student")
+	@Title("This test will create a new user")
 	@Test
-	public void createStudent() {
+	public void createUser() {
+	
+		UsersClass user=new UsersClass();
+		user.setName(name);
+		user.setJob(job);
+		
+		SerenityRest
+		 .given()
+		 .contentType(ContentType.JSON)
+		 .log()
+		 .all()
+		 .when()
+		 .body(user)
+		 .post()
+		 .then()
+		 .log()
+		 .all().statusCode(201);
+	}
+	
+	
+	
+	@Title("This test will update an existng user")
+	@Test
+	public void updateUser() {
 	
 		UsersClass user=new UsersClass();
 		user.setName(name);
