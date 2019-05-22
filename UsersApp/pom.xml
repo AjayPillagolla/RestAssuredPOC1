@@ -12,7 +12,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<serenity.version>2.0.48</serenity.version> <!-- https://bintray.com/serenity/maven/serenity-core/ -->
 		<serenity.maven.version>2.0.48</serenity.maven.version>
-		<serenity.cucumber.version>1.1.6</serenity.cucumber.version> <!-- https://bintray.com/serenity/maven/serenity-cucumber/ -->
+		<serenity.cucumber.version>1.9.37</serenity.cucumber.version> <!-- https://bintray.com/serenity/maven/serenity-cucumber/ -->
 	</properties>
 
 	<!-- Define the Bintray repos for convenience -->
@@ -103,11 +103,6 @@
               <groupId>javax.activation</groupId>
               <artifactId>activation</artifactId>
               <version>1.1.1</version>
-         </dependency>
-         <dependency>
-              <groupId>net.serenity-bdd</groupId>
-              <artifactId>serenity-cucumber</artifactId>
-              <version>1.9.37</version>
          </dependency>
 	</dependencies>
 	<build>

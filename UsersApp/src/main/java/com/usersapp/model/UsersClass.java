@@ -1,4 +1,4 @@
-package com.studentapp.model;
+package com.usersapp.model;
 
 public class UsersClass {
 
