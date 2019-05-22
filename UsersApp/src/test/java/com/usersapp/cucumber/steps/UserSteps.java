@@ -40,7 +40,7 @@ public class UserSteps {
 	   
 	   
 	   
-	   @When("^I provide the updated information id(.*) name(.*) job(.*) then user will be updated$")
+	   @When("^I provide the id(.*) information the name(.*) job(.*) of user will be updated$")
 	   public void updateUser(String userId,String name,String job) {
 		   steps.updateUser(userId,name, job);
 	   }

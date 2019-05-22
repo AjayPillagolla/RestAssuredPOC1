@@ -13,7 +13,7 @@ Scenario Outline: Create a new User and check 201 created response
     
    
 Scenario Outline: Update an existing user 
-     When I provide the updated information id<id> name<name> job<job> then user will be updated
+     When I provide the id<id> information the name<name> job<job> of user will be updated
      
      Examples:
      |name | job|
