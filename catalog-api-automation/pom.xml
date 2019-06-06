@@ -152,8 +152,8 @@
 				<configuration>
 
 					<includes>
-						<include>**/personalization/**/*.java</include>
-						<include>**/personalization/*.java</include>
+						<include>**/catalog/**/*.java</include>
+						<include>**/catalog/*.java</include>
 
 
 					</includes>

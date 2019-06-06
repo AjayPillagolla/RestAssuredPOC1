@@ -1,4 +1,4 @@
-package com.jiraapp.cucumber.resources;
+package catalog.cucumber.resources;
 
 public class ReusableMethods {
 

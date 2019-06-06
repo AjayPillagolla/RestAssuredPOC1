@@ -1,7 +1,6 @@
-package com.jiraapp.cucumber;
-import net.thucydides.core.annotations.WithTags;
+package catalog.cucumber;
+import catalog.testbase.TestBase;
 import org.junit.runner.RunWith;
-import com.jiraapp.testbase.TestBase;
 import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 @RunWith(CucumberWithSerenity.class)

@@ -1,4 +1,4 @@
-package com.jiraapp.testbase;
+package catalog.testbase;
 
 import org.junit.BeforeClass;
 

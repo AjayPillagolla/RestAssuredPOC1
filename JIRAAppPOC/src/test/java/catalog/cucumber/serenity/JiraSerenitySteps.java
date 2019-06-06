@@ -1,9 +1,6 @@
-package com.jiraapp.cucumber.serenity;
-
-import com.jiraapp.model.JiraClass;
+package catalog.cucumber.serenity;
 
 import io.restassured.http.ContentType;
-import io.restassured.internal.ValidatableResponseImpl;
 import io.restassured.response.ValidatableResponse;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;

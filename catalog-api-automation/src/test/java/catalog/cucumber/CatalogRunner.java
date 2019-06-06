@@ -1,15 +1,16 @@
-package com.jiraapp.cucumber;
-import net.thucydides.core.annotations.WithTags;
+package catalog.cucumber;
 import org.junit.runner.RunWith;
-import com.jiraapp.testbase.TestBase;
+import catalog.testbase.TestBase;
 import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features="src/test/resources/features/"
+        ,glue={"catalog.cucumber.steps"}
+        ,monochrome=true
            )
 
-public class JiraRunner extends TestBase {
+public class CatalogRunner extends TestBase {
       
 	
 }

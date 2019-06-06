@@ -1,4 +1,4 @@
-package com.jiraapp.model;
+package jira.model;
 
 public class JiraClass {
 
