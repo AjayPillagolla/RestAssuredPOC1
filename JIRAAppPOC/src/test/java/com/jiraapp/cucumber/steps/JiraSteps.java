@@ -2,10 +2,16 @@ package com.jiraapp.cucumber.steps;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.jiraapp.model.JiraClass;
+import com.jiraapp.cucumber.serenity.JiraSerenitySteps;
+import io.restassured.RestAssured;
+import net.thucydides.core.annotations.WithTag;
+import org.json.simple.JSONObject;
+
+//import com.jiraapp.model.JiraClass;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
@@ -17,33 +23,26 @@ import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
+import org.openqa.selenium.json.Json;
 
 public class JiraSteps {
-	    
-	   
-	   @When("^user provides the required details,an  issue must be created.$")
-	   public void createIssue() {         
-		  
-		   Map<String,String> issuetype=new HashMap<String, String>();
-			  issuetype.put("name", "Bug");  
-		  
-		   Map<String,String> project=new HashMap<String, String>();
-		   project.put("Key", "RES");
-			  
-		  Map<String,Object>  fields=new HashMap<String, Object>();
-		  fields.put("project", project);
-		  fields.put("summary", "Defect5");
-		  fields.put("description", "TestDefect5");
-		  fields.put("issuetype", issuetype);
-		  
-		  Map<String,Object>  body=new HashMap<String, Object>();
-           body.put("fields", fields);
-		  
-		  
-		  SerenityRest.rest().given().cookie("SESSIONID", "81BA965998FDBC3AB3D68AA72C6E7CD4").log().all()
-		  .contentType(ContentType.JSON)
-		  .when().body(body).post().then().log().all();
-		  
+
+	@Steps
+	JiraSerenitySteps steps;
+	static String sessionId;
+	@When("^url is provided then the user should be authenticated.$")
+	public void authenticateUser() {
+
+		Response res=steps.authenticateUser().extract().response();
+		String responseBody=res.asString();
+		System.out.println(responseBody);
+		JsonPath js=new JsonPath(responseBody);
+		 sessionId=js.get("session.value");
+	}
+
+	@When("^user provides the required details and sessionId(.*) ,an issue must be created.$")
+	   public void createIssue(String sessionId) {
+           steps.createIssue(sessionId);
 	   } 
 }
 	   

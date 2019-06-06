@@ -8,7 +8,7 @@ public class TestBase {
 
 	 @BeforeClass
 	 public static void init() {
-		 RestAssured.baseURI="http://localhost:8080/rest/api/2/issue";
+		 RestAssured.baseURI="http://localhost:8080/";
 
 	 }
 }
