@@ -1,4 +1,4 @@
-package catalog.testbase;
+package taxonomy.testbase;
 
 import org.junit.BeforeClass;
 

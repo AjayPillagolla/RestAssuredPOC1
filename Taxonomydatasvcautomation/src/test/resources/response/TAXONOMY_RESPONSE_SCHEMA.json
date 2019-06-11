@@ -1,0 +1,1004 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string"
+    },
+    "attributes": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "Name": {
+              "type": "string"
+            },
+            "Id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "Name",
+            "Id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "categoryId",
+            "name",
+            "id",
+            "identifier",
+            "sequenceNumber"
+          ]
+        }
+      ]
+    },
+    "type": {
+      "type": "string"
+    },
+    "parents": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "type": {
+              "type": "null"
+            },
+            "attributes": {
+              "type": "null"
+            },
+            "parents": {
+              "type": "array",
+              "items": {}
+            },
+            "parentId": {
+              "type": "string"
+            },
+            "label": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "id",
+            "type",
+            "attributes",
+            "parents",
+            "parentId",
+            "label"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "type": {
+              "type": "null"
+            },
+            "attributes": {
+              "type": "null"
+            },
+            "parents": {
+              "type": "array",
+              "items": {}
+            },
+            "parentId": {
+              "type": "string"
+            },
+            "label": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "id",
+            "type",
+            "attributes",
+            "parents",
+            "parentId",
+            "label"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "type": {
+              "type": "null"
+            },
+            "attributes": {
+              "type": "null"
+            },
+            "parents": {
+              "type": "array",
+              "items": {}
+            },
+            "parentId": {
+              "type": "string"
+            },
+            "label": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "id",
+            "type",
+            "attributes",
+            "parents",
+            "parentId",
+            "label"
+          ]
+        }
+      ]
+    },
+    "name": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "label",
+    "attributes",
+    "type",
+    "parents",
+    "name"
+  ]
+}

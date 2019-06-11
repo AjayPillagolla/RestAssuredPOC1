@@ -3,19 +3,19 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>Catalog</groupId>
-	<artifactId>Catalog</artifactId>
+	<groupId>Taxonomydatasvcautomation</groupId>
+	<artifactId>Taxonomydatasvcautomation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Catalog Serenity BDD</name>
+	<name>Taxonomy Serenity BDD</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<serenity.version>2.0.20</serenity.version> <!-- https://bintray.com/serenity/maven/serenity-core/ -->
-		<serenity.maven.version>2.0.20</serenity.maven.version>
-		<serenity.cucumber.version>1.9.21</serenity.cucumber.version> <!-- https://bintray.com/serenity/maven/serenity-cucumber/ -->
+		<serenity.version>2.0.48</serenity.version> <!-- https://bintray.com/serenity/maven/serenity-core/ -->
+		<serenity.maven.version>2.0.48</serenity.maven.version>
+		<serenity.cucumber.version>1.9.39</serenity.cucumber.version> <!-- https://bintray.com/serenity/maven/serenity-cucumber/ -->
 	</properties>
 
 	<!-- Define the Bintray repos for convenience -->
@@ -152,8 +152,8 @@
 				<configuration>
 
 					<includes>
-						<include>**/catalog/**/*.java</include>
-						<include>**/catalog/*.java</include>
+						<include>**/taxonomy/**/*.java</include>
+						<include>**/taxonomy/*.java</include>
 
 
 					</includes>
