@@ -14,10 +14,10 @@
             "categoryId": {
               "type": "string"
             },
-            "Name": {
+            "name": {
               "type": "string"
             },
-            "Id": {
+            "id": {
               "type": "string"
             },
             "identifier": {
@@ -29,8 +29,8 @@
           },
           "required": [
             "categoryId",
-            "Name",
-            "Id",
+            "name",
+            "id",
             "identifier",
             "sequenceNumber"
           ]
