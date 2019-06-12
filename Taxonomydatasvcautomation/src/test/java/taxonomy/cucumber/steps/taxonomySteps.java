@@ -40,4 +40,15 @@ public class taxonomySteps extends TestBase {
     public void the_user_validates_the_Json_Schema_with_schema_at(String schemaPath) {
         steps.jsonSchemaValidation(schemaPath);
     }
+
+    @And("^verify that response has attributes array$")
+    public void verify_that_response_has_attributes_array() {
+        steps.validateAttributesHasArray();
+    }
+
+    @Then("^the response has parents array$")
+    public void the_response_has_parents_array() {
+        steps.validateParentsHasArray();
+
+    }
 }

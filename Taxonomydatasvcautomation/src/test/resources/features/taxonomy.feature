@@ -1,12 +1,12 @@
-Feature: To Verify the response for getCategoryDetails
+Feature: To Verify the response for getAttributesByCategory
 
-
-  Scenario Outline: To verify the response for getDetailsByCategoryId
+  Scenario Outline:getAttributesByCategory happypath
    When the user sends a request with categoryID <catId>
    Then  the user verify that the status code is <StatusCode>
    And  the status line is "<StatusLine> "
-   And The user validates the Json Schema with schema at "<schemaPath> "
    And  the user validates the response header
+   And verify that response has attributes array
+   And the response has parents array
 
    Examples:
     |catId|schemaPath|StatusCode|StatusLine|
